@@ -1,0 +1,73 @@
+# Node.js + React + TypeScript
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+playwright/.cache/
+
+# Prisma
+# (keep schema.prisma and migrations tracked)
+prisma/dev.db
+prisma/dev.db-journal
+
+# Build artifacts
+*.js.map
+*.d.ts.map
+
+# Docker
+*.dockerignore
+
+# Package managers
+.pnp
+.pnp.js
+.yarn/install-state.gz
+package-lock.json
+# (use npm — if switching to pnpm/yarn, remove the above)
+
+# Secrets / keys (extra safety net)
+*.pem
+*.key
+*.cert
+serviceAccountKey.json
+gcloud-service-key.json
